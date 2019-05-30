@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/monokai.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>Signbox Status</h1>
+					<h4>Sobre el estado del proyecto y sus desafíos.</h4>
+					<p>
+						<small>Creado por <a href="https://www.linkedin.com/in/esteban-andr%C3%A9s-morales-bb2b2920/">Esteban Andrés Morales</a> Box Custodia.</small>
+					</p>
+				</section>
+				<section>
+					<section>
+						<h1>Arquitectura</h1>
+						<p>Del diseño del producto.</p>
+					</section>
+					<section>
+						<h3>Una Analogía</h3>
+						<img class="stretch" data-src="img/swissarmyknife_dribbble.gif"/>
+					</section>
+					<section>
+						<h3>Fragmentación</h3>
+						<img class="stretch" data-src="img/arch_02.png"/>
+					</section>
+					<section>
+							<h3>Problema</h3>
+							<img class="stretch" data-src="img/arch_03.png"/>
+						</section>
+					<section>
+							<h3>Mitigación</h3>
+							<img class="stretch" data-src="img/arch_04.png"/>
+					</section>
+					<section>
+						<h3>Alternativa</h3>
+						<img class="stretch" data-src="img/arch_05.png"/>
+					</section>
+					<section>
+						<h3>Clientes Distintos</h3>
+						<img class="stretch" data-src="img/arch_06.png"/>
+					</section>
+					<section>
+						<h3>API Pública</h3>
+						<img class="stretch" data-src="img/arch_07.jpg"/>
+					</section>
+				</section>
+				<section>
+					<section data-background="img/dep-back_00.jpg">
+						<h1>DESPLIEGUE</h1>
+						<p>Una oportuna historia de cajas</p>
+					</section>
+					<section>
+						<h3>Equivalentes</h3>
+						<img class="stretch" data-src="img/dep_00.png"/>
+					</section>
+
+					<section>
+						<h3>Despacho</h3>
+						<img class="stretch" data-src="img/dep_01.png"/>
+					</section>
+					<section>
+						<h3>Disponibizados</h3>
+						<img class="stretch" data-src="img/dep_02.png"/>
+					</section>
+					<section>
+						<h3>Acceso</h3>
+						<img class="stretch" data-src="img/dep_03.png"/>
+					</section>
+					<section>
+						<h3>ESCALA</h3>
+						<img class="stretch" data-src="img/dep_04.png"/>
+					</section>
+					<section>
+						<h3>Mitigado</h3>
+						<img class="stretch" data-src="img/dep_05.png"/>
+					</section>
+					<section>
+						<h3>Sobre la Nube</h3>
+						<img class="stretch" data-src="img/dep_06.png"/>
+					</section>
+					<section>
+						<h3>En Realidad</h3>
+						<img class="stretch" data-src="img/dep_07.png"/>
+					</section>
+					<section>
+						<h3>Incluso</h3>
+						<img class="stretch" data-src="img/dep_08.png"/>
+					</section>
+				</section>
+			</div>
+		</div>
+
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true },
+					{ src: 'plugin/zoom-js/zoom.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
